@@ -2,9 +2,11 @@ body {
     background-color: black;
     font-family: 'Staatliches', cursive;
 }
+
 html {
     font-size: 62.5%;
 }
+
 h1 {
     font-family: "Inter", sans-serif;
     font-size: 4.5rem;
@@ -12,6 +14,7 @@ h1 {
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 h2 {
@@ -20,6 +23,7 @@ h2 {
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .contenedor {
@@ -28,12 +32,16 @@ h2 {
     margin: 0 auto;
     border-radius: 16px;
 }
+
 p {
     font-size: 2rem;
 }
-h1, p {
+
+h1,
+p {
     text-align: center;
 }
+
 form {
     max-width: 1100px;
     margin: 0 auto;
@@ -42,22 +50,27 @@ form {
     font-family: "Inter", sans-serif;
     border-radius: 16px;
 }
-#app p{
-    text-align: left!important;
+
+#app p {
+    text-align: left !important;
     font-size: 2rem;
     font-family: "Inter", sans-serif;
 }
+
 #resultado p {
     margin: 0;
     padding: 2rem;
     border-bottom: 1px solid #e1e1e1;
 }
+
 #resultado p span {
     font-weight: bold;
 }
-#resultado p:last-of-type{
+
+#resultado p:last-of-type {
     border: none;
 }
+
 .alerta {
     padding: 1rem;
     text-align: center;
@@ -65,16 +78,17 @@ form {
     color: white;
     font-size: 2rem;
 }
+
 .error {
     background-color: red;
-        margin: 2rem 4rem 6rem;
+    margin: 2rem 4rem 6rem;
 }
 
 .resultado {
     height: 10rem;
 }
 
-.sitio-web  {
+.sitio-web {
     color: white;
     display: block;
     font-size: 4rem;
@@ -82,43 +96,47 @@ form {
     margin: 2rem auto;
     text-decoration: none;
 }
+
 .sitio-web:hover {
     color: white;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
 
     .contenedor {
-    background-color: white;
-    width: 320px;
-    margin: 2rem auto;
-    border-radius: 8px;
-    padding: 0rem 0rem 2rem;
-}
-
-form {
-        width: 280px;
-    margin: 0 auto;
-padding: 3rem 1rem 4rem;
+        background-color: white;
+        width: 320px;
+        margin: 2rem auto;
         border-radius: 8px;
-}
+        padding: 0rem 0rem 2rem;
+    }
+
+    form {
+        width: 280px;
+        margin: 0 auto;
+        padding: 3rem 1rem 4rem;
+        border-radius: 8px;
+    }
+
     h1 {
-    font-size: 3rem;
+        font-size: 2.5rem;
         padding: 5rem 0 2rem;
-}
+        letter-spacing: 0.5px;
+    }
 
-h2 {
-    font-size: 1.5rem;
-}
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+    }
 
-p {
-font-size: 1rem;
-}
+    p {
+        font-size: 1.5rem;
+    }
 
-.alerta {
-    font-size: 1rem;
-    padding: 0.5rem;
-    margin: 1rem auto;
-    width: 280px;
-}
+    .alerta {
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 1rem auto;
+        width: 280px;
+    }
 }
